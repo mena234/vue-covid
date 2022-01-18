@@ -1,13 +1,11 @@
 <template>
   <div>
-      
+    <ApprovalTimeStats />
   </div>
 </template>
 
-<script>
-export default {
-  
-}
+<script setup>
+import ApprovalTimeStats from '@/components/TravelAuthDashboard/ApprovalTimeStats'
 </script>
 
 <style>
