@@ -1,13 +1,17 @@
 <template>
-  <div>
-    <ApprovalTimeStats />
-  </div>
+    <div>
+        <div class="mb-24">
+            <TravelAuthStats />
+        </div>
+        <div class="mb-24">
+            <ApprovalTimeStats />
+        </div>
+    </div>
 </template>
 
 <script setup>
-import ApprovalTimeStats from '@/components/TravelAuthDashboard/ApprovalTimeStats'
+import TravelAuthStats from "@/components/TravelAuthDashboard/TravelAuthStats";
+import ApprovalTimeStats from "@/components/TravelAuthDashboard/ApprovalTimeStats";
 </script>
 
-<style>
-
-</style>
+<style></style>
