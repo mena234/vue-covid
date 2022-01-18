@@ -1,13 +1,21 @@
 <template>
-    <div class="m-10">
-      <TestingDashboard />
+    <div class="mx-5">
+        <div class="container m-auto flex justify-between align-middle mt-10 mb-24">
+            <router-link to="/testing-dashboard" class="routing-button px-4 py-2 rounded-md">
+                Testing Dashboard
+            </router-link>
+            <router-link to="/travel-auth-dashboard" class="routing-button px-4 py-2 rounded-md">
+                Travel Auth Dashboard
+            </router-link>
+            <router-link to="/vaccine-dashboard" class="routing-button px-4 py-2 rounded-md">
+                Vaccine Dashboard
+            </router-link>
+        </div>
+        <router-view />
     </div>
 </template>
 
-<script setup>
-import TestingDashboard from "@/pages/TestingDashboard";
-// import testingDashboard from '@/constants/testingDashboard'
-</script>
+<script setup></script>
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
@@ -18,6 +26,9 @@ body {
     color: white;
 }
 
+.routing-button {
+    background-color: #333;
+}
 ::-webkit-scrollbar {
     width: 6px;
 }

@@ -15,7 +15,9 @@
 </template>
 
 <script setup>
+import { defineProps } from 'vue';
 import { usePoints } from "vue3-charts";
+
 const props = defineProps({
     dataKeys: {
         type: Object,

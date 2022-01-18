@@ -50,7 +50,7 @@ table {
 }
 
 th, td {
-    min-width: 20rem;
+    min-width: 10rem;
 }
 td {
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);

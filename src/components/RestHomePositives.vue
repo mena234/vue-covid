@@ -22,7 +22,7 @@
 import { ref } from "vue";
 import moment from "moment";
 import { Responsive, Chart, Line } from "vue3-charts";
-import LabelsLayer from "@/components/LabelsLayer";
+import LabelsLayer from "@/components/UI/LabelsLayer";
 import { restHomePositives as data } from "@/constants/testingDashboard";
 
 const restHomePositives = data.map((p) => ({
