@@ -22,7 +22,7 @@ const routes = [
   {
     path: "/",
     redirect: {
-        name: "Testing Dashboard"
+        name: "Vaccine Dashboard"
     }
   },
 ];

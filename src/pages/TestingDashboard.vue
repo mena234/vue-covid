@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import RestHomePositives from "@/components/RestHomePositives";
-import TestingStats from "@/components/TestingStats";
-import UpcomingScheduledTests from "@/components/UpcomingScheduledTests";
+import RestHomePositives from "@/components/TestingDashboard/RestHomePositives";
+import TestingStats from "@/components/TestingDashboard/TestingStats";
+import UpcomingScheduledTests from "@/components/TestingDashboard/UpcomingScheduledTests";
 </script>
