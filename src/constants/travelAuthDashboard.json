@@ -1,0 +1,174 @@
+{
+    "travelAuthStats": [
+        {
+            "DateStart": "2021-09-27T00:00:00",
+            "Total": 1818,
+            "Approved": 255,
+            "NotApproved": 1563,
+            "Revenue": 18975.0
+        },
+        {
+            "DateStart": "2021-09-28T00:00:00",
+            "Total": 392,
+            "Approved": 389,
+            "NotApproved": 3,
+            "Revenue": 28125.0
+        },
+        {
+            "DateStart": "2021-09-29T00:00:00",
+            "Total": 190,
+            "Approved": 187,
+            "NotApproved": 3,
+            "Revenue": 14025.0
+        },
+        {
+            "DateStart": "2021-09-30T00:00:00",
+            "Total": 464,
+            "Approved": 461,
+            "NotApproved": 3,
+            "Revenue": 33525.0
+        },
+        {
+            "DateStart": "2021-10-01T00:00:00",
+            "Total": 720,
+            "Approved": 714,
+            "NotApproved": 6,
+            "Revenue": 52725.0
+        },
+        {
+            "DateStart": "2021-10-02T00:00:00",
+            "Total": 283,
+            "Approved": 281,
+            "NotApproved": 2,
+            "Revenue": 21150.0
+        },
+        {
+            "DateStart": "2021-10-03T00:00:00",
+            "Total": 2124,
+            "Approved": 2073,
+            "NotApproved": 51,
+            "Revenue": 157200.0
+        },
+        {
+            "DateStart": "2021-10-04T00:00:00",
+            "Total": 251,
+            "Approved": 246,
+            "NotApproved": 5,
+            "Revenue": 15000.0
+        },
+        {
+            "DateStart": "2021-10-05T00:00:00",
+            "Total": 261,
+            "Approved": 248,
+            "NotApproved": 13,
+            "Revenue": 19425.0
+        },
+        {
+            "DateStart": "2021-10-06T00:00:00",
+            "Total": 42,
+            "Approved": 42,
+            "NotApproved": null,
+            "Revenue": 3150.0
+        },
+        {
+            "DateStart": "2021-10-07T00:00:00",
+            "Total": 22,
+            "Approved": 22,
+            "NotApproved": null,
+            "Revenue": 1650.0
+        },
+        {
+            "DateStart": "2021-10-08T00:00:00",
+            "Total": 48,
+            "Approved": 4,
+            "NotApproved": 44,
+            "Revenue": 3600.0
+        },
+        {
+            "DateStart": "2021-10-09T00:00:00",
+            "Total": 1,
+            "Approved": 1,
+            "NotApproved": null,
+            "Revenue": 75.0
+        },
+        {
+            "DateStart": "2021-10-10T00:00:00",
+            "Total": 480,
+            "Approved": 3,
+            "NotApproved": 477,
+            "Revenue": 36000.0
+        }
+    ],
+    "approvalTimeStats": [
+        {
+            "DateOfTravel": "2021-10-10T00:00:00",
+            "AverageApprovalTime": 10,
+            "TotalCount": 3
+        },
+        {
+            "DateOfTravel": "2021-10-09T00:00:00",
+            "AverageApprovalTime": 15,
+            "TotalCount": 1
+        },
+        {
+            "DateOfTravel": "2021-10-08T00:00:00",
+            "AverageApprovalTime": 4,
+            "TotalCount": 6
+        },
+        {
+            "DateOfTravel": "2021-10-07T00:00:00",
+            "AverageApprovalTime": 1,
+            "TotalCount": 21
+        },
+        {
+            "DateOfTravel": "2021-10-06T00:00:00",
+            "AverageApprovalTime": 9,
+            "TotalCount": 42
+        },
+        {
+            "DateOfTravel": "2021-10-05T00:00:00",
+            "AverageApprovalTime": 4,
+            "TotalCount": 247
+        },
+        {
+            "DateOfTravel": "2021-10-04T00:00:00",
+            "AverageApprovalTime": 30,
+            "TotalCount": 245
+        },
+        {
+            "DateOfTravel": "2021-10-03T00:00:00",
+            "AverageApprovalTime": 47,
+            "TotalCount": 2050
+        },
+        {
+            "DateOfTravel": "2021-10-02T00:00:00",
+            "AverageApprovalTime": 5,
+            "TotalCount": 278
+        },
+        {
+            "DateOfTravel": "2021-10-01T00:00:00",
+            "AverageApprovalTime": 22,
+            "TotalCount": 684
+        },
+        {
+            "DateOfTravel": "2021-09-30T00:00:00",
+            "AverageApprovalTime": 5,
+            "TotalCount": 451
+        },
+        {
+            "DateOfTravel": "2021-09-29T00:00:00",
+            "AverageApprovalTime": 6,
+            "TotalCount": 186
+        },
+        {
+            "DateOfTravel": "2021-09-28T00:00:00",
+            "AverageApprovalTime": 6,
+            "TotalCount": 382
+        },
+        {
+            "DateOfTravel": "2021-09-27T00:00:00",
+            "AverageApprovalTime": 0,
+            "TotalCount": 1814
+        }
+    ]
+}

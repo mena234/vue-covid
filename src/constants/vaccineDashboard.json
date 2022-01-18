@@ -1,0 +1,225 @@
+{
+    "vaccinationStats": [
+        {
+            "Date": "2021-10-04T00:00:00",
+            "Registrations": 25,
+            "Walkins": null,
+            "FirstDose": null,
+            "SecondDose": null
+        },
+        {
+            "Date": "2021-10-03T00:00:00",
+            "Registrations": 95,
+            "Walkins": 66,
+            "FirstDose": 127,
+            "SecondDose": 9
+        },
+        {
+            "Date": "2021-10-02T00:00:00",
+            "Registrations": 87,
+            "Walkins": 58,
+            "FirstDose": 161,
+            "SecondDose": 59
+        },
+        {
+            "Date": "2021-10-01T00:00:00",
+            "Registrations": 39,
+            "Walkins": null,
+            "FirstDose": null,
+            "SecondDose": null
+        },
+        {
+            "Date": "2021-09-30T00:00:00",
+            "Registrations": 86,
+            "Walkins": 43,
+            "FirstDose": 88,
+            "SecondDose": 30
+        },
+        {
+            "Date": "2021-09-29T00:00:00",
+            "Registrations": 26,
+            "Walkins": null,
+            "FirstDose": null,
+            "SecondDose": null
+        },
+        {
+            "Date": "2021-09-28T00:00:00",
+            "Registrations": 102,
+            "Walkins": 29,
+            "FirstDose": 85,
+            "SecondDose": 22
+        },
+        {
+            "Date": "2021-09-27T00:00:00",
+            "Registrations": 78,
+            "Walkins": null,
+            "FirstDose": null,
+            "SecondDose": null
+        },
+        {
+            "Date": "2021-09-26T00:00:00",
+            "Registrations": 22,
+            "Walkins": null,
+            "FirstDose": null,
+            "SecondDose": null
+        },
+        {
+            "Date": "2021-09-25T00:00:00",
+            "Registrations": 55,
+            "Walkins": 35,
+            "FirstDose": 182,
+            "SecondDose": 62
+        }
+    ],
+    "vaccinationStatsByWeek": [
+        {
+            "Date": "2021-10-03T00:00:00",
+            "Registrations": 120,
+            "Walkins": 66,
+            "FirstDose": 127,
+            "SecondDose": 9
+        },
+        {
+            "Date": "2021-09-26T00:00:00",
+            "Registrations": 440,
+            "Walkins": 130,
+            "FirstDose": 334,
+            "SecondDose": 111
+        },
+        {
+            "Date": "2021-09-19T00:00:00",
+            "Registrations": 491,
+            "Walkins": 75,
+            "FirstDose": 297,
+            "SecondDose": 147
+        },
+        {
+            "Date": "2021-09-12T00:00:00",
+            "Registrations": 379,
+            "Walkins": 81,
+            "FirstDose": 217,
+            "SecondDose": 121
+        },
+        {
+            "Date": "2021-09-05T00:00:00",
+            "Registrations": 198,
+            "Walkins": 56,
+            "FirstDose": 136,
+            "SecondDose": 110
+        },
+        {
+            "Date": "2021-08-29T00:00:00",
+            "Registrations": 214,
+            "Walkins": 69,
+            "FirstDose": 144,
+            "SecondDose": 129
+        },
+        {
+            "Date": "2021-08-22T00:00:00",
+            "Registrations": 329,
+            "Walkins": 63,
+            "FirstDose": 138,
+            "SecondDose": 170
+        },
+        {
+            "Date": "2021-08-15T00:00:00",
+            "Registrations": 285,
+            "Walkins": 62,
+            "FirstDose": 134,
+            "SecondDose": 69
+        },
+        {
+            "Date": "2021-08-08T00:00:00",
+            "Registrations": 346,
+            "Walkins": 66,
+            "FirstDose": 141,
+            "SecondDose": 130
+        },
+        {
+            "Date": "2021-08-01T00:00:00",
+            "Registrations": 264,
+            "Walkins": 77,
+            "FirstDose": 170,
+            "SecondDose": 135
+        },
+        {
+            "Date": "2021-07-25T00:00:00",
+            "Registrations": 256,
+            "Walkins": 27,
+            "FirstDose": 53,
+            "SecondDose": 62
+        },
+        {
+            "Date": "2021-07-18T00:00:00",
+            "Registrations": 154,
+            "Walkins": 61,
+            "FirstDose": 147,
+            "SecondDose": 172
+        },
+        {
+            "Date": "2021-07-11T00:00:00",
+            "Registrations": 123,
+            "Walkins": 26,
+            "FirstDose": 96,
+            "SecondDose": 75
+        },
+        {
+            "Date": "2021-07-05T00:00:00",
+            "Registrations": 158,
+            "Walkins": 25,
+            "FirstDose": 94,
+            "SecondDose": 89
+        }
+    ],
+    "vaccinationStatsByMonth": [
+        {
+            "Date": "2021-10-01T00:00:00",
+            "Registrations": 246,
+            "Walkins": 124,
+            "FirstDose": 288,
+            "SecondDose": 68
+        },
+        {
+            "Date": "2021-09-01T00:00:00",
+            "Registrations": 1534,
+            "Walkins": 326,
+            "FirstDose": 911,
+            "SecondDose": 525
+        },
+        {
+            "Date": "2021-08-01T00:00:00",
+            "Registrations": 1286,
+            "Walkins": 295,
+            "FirstDose": 639,
+            "SecondDose": 538
+        },
+        {
+            "Date": "2021-07-01T00:00:00",
+            "Registrations": 746,
+            "Walkins": 149,
+            "FirstDose": 440,
+            "SecondDose": 475
+        },
+        {
+            "Date": "2021-06-01T00:00:00",
+            "Registrations": 2854,
+            "Walkins": 1569,
+            "FirstDose": 3491,
+            "SecondDose": 6291
+        },
+        {
+            "Date": "2021-05-01T00:00:00",
+            "Registrations": 4936,
+            "Walkins": 1370,
+            "FirstDose": 4696,
+            "SecondDose": 8717
+        },
+        {
+            "Date": "2021-04-05T00:00:00",
+            "Registrations": 4692,
+            "Walkins": 1025,
+            "FirstDose": 8852,
+            "SecondDose": 7635
+        }
+    ]
+}
