@@ -4,7 +4,7 @@
             <TestingStats />
         </div>
         <div class="mb-24">
-            <div class="text-5xl text-center">TESTING HOME POSITIVIES</div>
+            <div class="sm:text-5xl text-2xl text-center mb-10">TESTING HOME POSITIVIES</div>
             <RestHomePositives />
         </div>
         <div class="mb-24">

@@ -1,5 +1,5 @@
 <template>
-    <Table :items="approvalTimeStats" :tableHeaders="tableHeaders" header="APPROVAL TIME STATUS" />
+    <Table :items="approvalTimeStats" :tableHeaders="tableHeaders" header="APPROVAL TIME STATUS" :tableMinWidth="40" />
 </template>
 
 <script setup>
