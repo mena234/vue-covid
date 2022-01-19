@@ -3,14 +3,14 @@
 </template>
 
 <script setup>
-import moment from "moment";
+import { dayNumberWithMonth } from '@/helpers/dateHelper'
 import { upcomingScheduledTests as data } from "@/constants/testingDashboard";
 
 import Table from "@/components/UI/Table";
 
 const upcomingScheduledTests = data.map((d) => ({
     ...d,
-    DateStart: new moment(d.DateStart).format("MMM, DD"),
+    DateStart: dayNumberWithMonth(d.DateStart),
 }));
 
 const tableHeaders = Object.keys(data[0])

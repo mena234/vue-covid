@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="overflow-x-auto">
-            <Responsive class="responsive-container">
+            <Responsive class="responsive-container mb-5">
                 <template #main="{ width }">
                     <Chart
                         :size="{ width: width, height: 500 }"
@@ -21,22 +21,22 @@
                 </template>
             </Responsive>
         </div>
-        <div class="flex flex-col ml-10 mt-5">
-            <div class="xl:text-lg sm:text-sm"><span>Year: 2021</span></div>
+        <div class="flex flex-col ml-10 mt-2">
+            <div class="sm:text-lg text-sm"><span>Year: 2021</span></div>
         </div>
     </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import moment from "moment";
 import { Responsive, Chart, Line } from "vue3-charts";
 import LabelsLayer from "@/components/UI/LabelsLayer";
 import { restHomePositives as data } from "@/constants/testingDashboard";
+import { dayNumberWithMonth } from '@/helpers/dateHelper'
 
 const restHomePositives = data.map((p) => ({
     ...p,
-    TestDate: new moment(p.TestDate).format("MMM, DD"),
+    TestDate: dayNumberWithMonth(p.TestDate),
 }));
 
 const margin = ref({

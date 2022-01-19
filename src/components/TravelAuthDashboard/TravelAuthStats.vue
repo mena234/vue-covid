@@ -43,17 +43,17 @@
                 </template>
             </Responsive>
         </div>
-        <div class="flex flex-col ml-10 mt-5">
-            <div class="text-lg"><span>Year: 2021</span></div>
-            <div class="text-lg">
+        <div class="flex flex-col ml-10 mt-2 sm:text-lg text-sm">
+            <div><span>Year: 2021</span></div>
+            <div>
                 <div class="p-2 inline-block bg-light-black"></div>
                 <span class="ml-2">Total</span>
             </div>
-            <div class="text-lg">
+            <div>
                 <div class="p-2 inline-block bg-light-gray"></div>
                 <span class="ml-2">Approved</span>
             </div>
-            <div class="text-lg">
+            <div>
                 <div
                     class="p-2 bg-white not-approved-bg-color inline-block"
                 ></div>
@@ -65,14 +65,14 @@
 
 <script setup>
 import { ref } from "vue";
-import moment from "moment";
+import { dayNumberWithMonth } from '@/helpers/dateHelper'
 import { Responsive, Chart, Grid, Tooltip, Bar } from "vue3-charts";
 import { plByMonth } from "@/constants/data";
 import { travelAuthStats as data } from "@/constants/travelAuthDashboard";
 
 const travelAuthStats = data.map((d) => ({
     ...d,
-    DateStart: new moment(d.DateStart).format("MMM, DD"),
+    DateStart: dayNumberWithMonth(d.DateStart),
 }));
 console.log(travelAuthStats);
 console.log(plByMonth);

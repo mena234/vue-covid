@@ -3,19 +3,17 @@
 </template>
 
 <script setup>
-import moment from "moment";
 import { testingStats as data } from "@/constants/testingDashboard";
-
+import { dayNumberWithMonth } from '@/helpers/dateHelper'
+import { addSpaceBeforeCapital } from '@/helpers/stringHelper'
 import Table from "@/components/UI/Table";
 
 const testingStats = data.map((d) => ({
     ...d,
-    DateStart: new moment(d.DateStart).format("MMM, DD"),
+    DateStart: dayNumberWithMonth(d.DateStart),
 }));
 
-const tableHeaders = Object.keys(data[0]).map((i) => {
-    return i.replace(/([A-Z])/g, " $1").trim();
-});
+const tableHeaders = addSpaceBeforeCapital(data[0]);
 </script>
 
 <style></style>

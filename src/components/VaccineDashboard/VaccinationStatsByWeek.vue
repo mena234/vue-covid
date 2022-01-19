@@ -5,7 +5,8 @@
 </template>
 
 <script setup>
-import moment from 'moment';
+import { dayNumberWithMonth } from '@/helpers/dateHelper';
+import { addSpaceBeforeCapital } from '@/helpers/stringHelper'
 import Table from '@/components/UI/Table'
 import { vaccinationStatsByWeek as data } from '@/constants/vaccineDashboard';
 
@@ -14,16 +15,14 @@ const valueOrNon = (value) => {
 }
 
 const vaccinationStatsByWeek = data.map((d) => ({
-    Date: new moment(d.Date).format("MMM, DD"),
+    Date: dayNumberWithMonth(d.Date),
     Registrations: valueOrNon(d.Registrations),
     Walkins: valueOrNon(d.Walkins),
     FirstDose: valueOrNon(d.FirstDose),
     SecondDose: valueOrNon(d.SecondDose),
 }));
 
-const tableHeaders = Object.keys(data[0]).map((i) => {
-    return i.replace(/([A-Z])/g, " $1").trim();
-});
+const tableHeaders = addSpaceBeforeCapital(data[0]);
 </script>
 
 <style>

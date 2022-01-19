@@ -41,11 +41,11 @@ a {
 }
 
 .router-link-exact-active {
-    background-color: #04aa6d;
+    background-color: #25c481;
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .responsive {
         position: relative;
     }
