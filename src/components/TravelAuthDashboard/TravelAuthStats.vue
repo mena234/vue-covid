@@ -57,7 +57,7 @@
                 <div
                     class="p-2 bg-white not-approved-bg-color inline-block"
                 ></div>
-                <span class="ml-2">Not Approved</span>
+                <span class="ml-2">Not Approved</span> 
             </div>
         </div>
     </div>
